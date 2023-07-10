@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1pS8+mT8nrBhc8AUYzAdL+UKUjlgJv/qlPnDVogKQNV7v7KL0vUp0TvZznZEwQnL08Ux9Ha7HvpCIvczxMwotQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Service\\CarRental.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kacpe\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\kacpe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
