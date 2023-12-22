@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CarRental.Service.Commands
 {
-    public  class AddRentalCommand : IRequest<RentalDetails>
+    public  class AddRentalCommand : IRequest<RentalDetail>
     {
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]

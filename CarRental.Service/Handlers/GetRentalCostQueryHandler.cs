@@ -13,12 +13,12 @@ namespace CarRental.Service.Handlers
     public class GetRentalCostQueryHandler : IRequestHandler<GetRentalCostQuery, RentalPrice>
     {
         private readonly ICarModelRepository _carModelRepository;
-        private readonly IRentalDetailsRepository _rentalDetailsRepository;
+        private readonly IRentalDetailRepository _rentalDetailRepository;
 
-        public GetRentalCostQueryHandler(ICarModelRepository carModelRepository, IRentalDetailsRepository rentalDetailsRepository)
+        public GetRentalCostQueryHandler(ICarModelRepository carModelRepository, IRentalDetailRepository rentalDetailRepository)
         {
             _carModelRepository = carModelRepository;
-            _rentalDetailsRepository = rentalDetailsRepository;
+            _rentalDetailRepository = rentalDetailRepository;
         }
 
         public Task<RentalPrice> Handle(GetRentalCostQuery request, CancellationToken cancellationToken)
@@ -52,13 +52,14 @@ namespace CarRental.Service.Handlers
 
             var RentalPriceCost = new RentalPrice
             {
-                FinalRentalPrice = RentalPrice,
-                PricePerDay = car.PricePerDay,
+                FinalRentalPrice = Math.Round(RentalPrice, 2),
+                PricePerDay = Math.Round(car.PricePerDay, 2),
                 RentDays = request.NumberOfDays,
-                FuelCost = FuelCost,
-                NetPrice = NetPrice,
-                GrossPrice = GrossPrice,
+                FuelCost = Math.Round(FuelCost,2),
+                NetPrice = Math.Round(NetPrice, 2),
+                GrossPrice = Math.Round(GrossPrice, 2),
             };
+            
 
             return Task.FromResult(RentalPriceCost);
             

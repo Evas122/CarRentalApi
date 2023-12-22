@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj": {}
+    "D:\\CSharpProjects\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj": {
+    "D:\\CSharpProjects\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj",
+        "projectUniqueName": "D:\\CSharpProjects\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj",
         "projectName": "CarRental.Storage",
-        "projectPath": "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj",
-        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kacpe\\source\\repos\\CarRentalApi\\CarRental.Storage\\obj\\",
+        "projectPath": "D:\\CSharpProjects\\CarRentalApi\\CarRental.Storage\\CarRental.Storage.csproj",
+        "packagesPath": "C:\\Users\\HypX\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharpProjects\\CarRentalApi\\CarRental.Storage\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HypX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

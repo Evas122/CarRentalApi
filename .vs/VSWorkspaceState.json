@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarRental.Service",
+    "\\CarRental.Storage",
+    "\\CarRental.Storage\\Entities",
+    "\\CarRentalUI",
+    "\\CarRentalUI\\Controllers"
+  ],
+  "SelectedNode": "\\CarRental.Storage\\CarRental.Storage.sln",
+  "PreviewInSolutionExplorer": false
+}

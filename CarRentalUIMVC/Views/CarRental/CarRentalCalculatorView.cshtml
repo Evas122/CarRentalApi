@@ -1,0 +1,54 @@
+﻿@using CarRental.Service.Commands
+@using CarRental.Storage.Entities
+@model AddRentalCommand
+
+
+
+<h2>Calculate Rental Cost </h2>
+<div class="row">
+    <div class="col-md-4">
+<form method="post" asp-action="CarRentalCalculatorView">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AvgNumberOfKilometres" class="control-label"></label>
+                <input type="number" asp-for="AvgNumberOfKilometres" class="form-control"/>
+                <span asp-validation-for="AvgNumberOfKilometres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DriverLicenseYear" class="control-label"></label>
+                <input type="number" asp-for="DriverLicenseYear" class="form-control" />
+                <span asp-validation-for="DriverLicenseYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarId" class="control-label"></label>
+                <select asp-for="CarId" class="form-control">
+                    <option value="" hidden> Select Model of Car</option>
+                    
+                    @foreach( var carModel in ViewBag.CarModels)
+                    {
+                        <option value ="@carModel.CarId">@carModel.Name</option>
+                    }
+                    </select>
+                    <span asp-validation-for="CarId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarRentalDate" class="control-label"></label>
+                <input type="date" asp-for="CarRentalDate" class="form-control" />
+                <span asp-validation-for="CarRentalDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarReturnDate" class="control-label"></label>
+                <input type="date" asp-for="CarReturnDate" class="form-control" />
+                <span asp-validation-for="CarReturnDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+</form>
+    </div>
+</div>
+
+@section Scripts
+{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -10,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace CarRental.Service.Handlers
 {
-    public class AddRentalCommandHandler : IRequestHandler<AddRentalCommand, RentalDetails>
+    public class AddRentalCommandHandler : IRequestHandler<AddRentalCommand, RentalDetail>
     {
-        private readonly IRentalDetailsRepository _repository;
+        private readonly IRentalDetailRepository _repository;
 
-        public AddRentalCommandHandler(IRentalDetailsRepository repository)
+        public AddRentalCommandHandler(IRentalDetailRepository repository)
         {
             _repository = repository;
         }
-        public Task<RentalDetails> Handle(AddRentalCommand request, CancellationToken cancellationToken)
+        public Task<RentalDetail> Handle(AddRentalCommand request, CancellationToken cancellationToken)
         {
-            var rentalDetails = new RentalDetails()
+            var rentalDetails = new RentalDetail()
             {
                 AvgNumberOfKilometres = request.AvgNumberOfKilometres,
                 DriverLicenseYear = request.DriverLicenseYear,

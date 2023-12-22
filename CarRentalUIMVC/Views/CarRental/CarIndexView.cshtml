@@ -1,0 +1,32 @@
+﻿@model List<CarRental.Storage.Entities.CarModel>
+@{
+    ViewData["Title"] = "Cars";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">CarId</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price Category</th>
+            <th scope="col">Car Location</th>
+            <th scope="col">Price Pe rDay</th>
+            <th scope="col">Average Fuel Consumption</th>
+            <th scope="col">Available Models</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach( var item in Model)
+        {
+            <tr>
+            <th scope="row">@item.CarId </th>
+            <td>@item.Name </td>
+            <td>@item.PriceCategory </td>
+            <td>@item.CarLocation </td>
+            <td>@item.PricePerDay </td>
+            <td>@item.AverageFuelConsumption </td>
+            <td>@item.AvailableModels </td>
+            </tr>
+        }
+    </tbody>
+</table>

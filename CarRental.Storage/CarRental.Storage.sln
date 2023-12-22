@@ -10,7 +10,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRental.Service", "..\Car
 		{B1F0BC6F-AB91-4587-861E-563DDF9B689C} = {B1F0BC6F-AB91-4587-861E-563DDF9B689C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalUI", "..\CarRentalUI\CarRentalUI.csproj", "{BB824143-03CA-4D8D-81CA-5DB44BA1FB5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentalUIMVC", "..\CarRentalUIMVC\CarRentalUIMVC.csproj", "{C382DA6E-31A0-46A2-9889-66060DA419CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D63EAE6-8DF6-4640-8276-E071E1CF7447} = {1D63EAE6-8DF6-4640-8276-E071E1CF7447}
+		{B1F0BC6F-AB91-4587-861E-563DDF9B689C} = {B1F0BC6F-AB91-4587-861E-563DDF9B689C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +30,10 @@ Global
 		{1D63EAE6-8DF6-4640-8276-E071E1CF7447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D63EAE6-8DF6-4640-8276-E071E1CF7447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D63EAE6-8DF6-4640-8276-E071E1CF7447}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB824143-03CA-4D8D-81CA-5DB44BA1FB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB824143-03CA-4D8D-81CA-5DB44BA1FB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB824143-03CA-4D8D-81CA-5DB44BA1FB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB824143-03CA-4D8D-81CA-5DB44BA1FB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C382DA6E-31A0-46A2-9889-66060DA419CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C382DA6E-31A0-46A2-9889-66060DA419CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C382DA6E-31A0-46A2-9889-66060DA419CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C382DA6E-31A0-46A2-9889-66060DA419CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

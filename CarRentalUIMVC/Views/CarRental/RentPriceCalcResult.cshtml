@@ -1,0 +1,31 @@
+﻿@using CarRental.Storage.Entities;
+@model RentalPrice
+
+@{
+    ViewData["Title"] = "Rental Cost";
+}
+
+<h2> Rental Cost of selected Car</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Rental Price</th>
+            <th scope="col">Price Per Day</th>
+            <th scope="col">Rent Days</th>
+            <th scope="col">Fuel Cost</th>
+            <th scope="col">Net Price</th>
+            <th scope="col">Gross Price</th>
+        </tr>
+    </thead>
+    <tbody> 
+       <tr>
+           <th scope="row">@Model.FinalRentalPrice</th>
+            <td>@Model.PricePerDay</td>
+            <td>@Model.RentDays</td>
+            <td>@Model.FuelCost</td>
+            <td>@Model.NetPrice</td>
+            <td>@Model.GrossPrice</td>
+       </tr>
+    </tbody>
+</table>

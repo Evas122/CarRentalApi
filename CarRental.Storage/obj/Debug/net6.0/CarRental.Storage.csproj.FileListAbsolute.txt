@@ -22,3 +22,17 @@ C:\Users\kacpe\source\repos\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarR
 C:\Users\kacpe\source\repos\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\refint\CarRental.Storage.dll
 C:\Users\kacpe\source\repos\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.pdb
 C:\Users\kacpe\source\repos\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\ref\CarRental.Storage.dll
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\bin\Debug\net6.0\CarRental.Storage.deps.json
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\bin\Debug\net6.0\CarRental.Storage.runtimeconfig.json
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\bin\Debug\net6.0\CarRental.Storage.dll
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\bin\Debug\net6.0\CarRental.Storage.pdb
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.csproj.AssemblyReference.cache
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.AssemblyInfoInputs.cache
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.AssemblyInfo.cs
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.csproj.CoreCompileInputs.cache
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.dll
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\refint\CarRental.Storage.dll
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.pdb
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\CarRental.Storage.genruntimeconfig.cache
+D:\CSharpProjects\CarRentalApi\CarRental.Storage\obj\Debug\net6.0\ref\CarRental.Storage.dll
